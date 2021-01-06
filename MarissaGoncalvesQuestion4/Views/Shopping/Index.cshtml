@@ -1,0 +1,13 @@
+﻿@model MarissaGoncalvesQuestion4.Models.User
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@Html.Partial("ShoppingItemList", Model.Items)
